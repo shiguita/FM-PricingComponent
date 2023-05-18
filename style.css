@@ -1,0 +1,66 @@
+body {
+  background-color: hsl(240, 78%, 98%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: hsl(233, 13%, 49%);
+}
+
+span {
+  color: hsl(234, 14%, 74%);
+}
+
+button {
+  border-color: white;
+  background: linear-gradient(
+    to left top,
+    hsl(237, 63%, 64%),
+    hsl(236, 72%, 79%)
+  );
+}
+
+button:hover {
+  background: transparent;
+  border: 1px solid hsl(237, 63%, 64%) !important;
+}
+
+.pro button:hover {
+  background: transparent !important;
+  border: 1px solid white !important;
+}
+
+.button-text:hover {
+  color: hsl(237, 63%, 64%) !important;
+}
+
+.button-p-text:hover {
+  color: white !important;
+}
+
+.card {
+  color: hsl(233, 13%, 49%);
+}
+
+.price {
+  color: hsl(232, 13%, 33%);
+  font-size: 4rem;
+}
+
+.pro {
+  color: hsl(240, 78%, 98%);
+  background: linear-gradient(
+    to left top,
+    hsl(237, 63%, 64%),
+    hsl(236, 72%, 79%)
+  );
+}
+
+.button-text {
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.button-p-text {
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: hsl(237, 63%, 64%);
+}
